@@ -122,7 +122,7 @@
         // | TAB  |  Q  |  W  |  E  | HUI | HUD |  Y  |  U  | INS |  O  |PSCRN| SLCK| P_B | RGB_TOG  |
         // | CAPS  |  A  |  S  |  D  | BRI | BRD |  H  |  J  |  K  |  L  | HOME| PGUP|      BOOT     |
         // | SHFT |NONE|VOLDN|VOLUP|MUTE|BLINC|BLDEC|  N  |  M  |  ,  | END | PGDN | SHFT|BL_TOG| 1  |
-        // | BT_PRV| BT_NXT|  ALT  |           SPACE              | RALT| CTRL | LEFT |RESET| BT_CLR |
+        // | BT_PRV| BT_NXT|  lgui  |           SPACE              | Rgui| CTRL | LEFT |RESET| BT_CLR |
         // ------------------------------------------------------------------------------------------
       bindings = <
         &kp GRAVE &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp  F8   &kp  F9 &kp  F10  &kp F11 &kp F12   &trans &trans
