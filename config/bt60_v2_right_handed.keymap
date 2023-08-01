@@ -33,7 +33,7 @@
         // | TAB  |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |   \     |
         // | CAPS  |  A  |  S  |  D  |  F  |  G  |  H  |  T  |  D  |  C  |  K  |  '  |     ENTER    |
         // |  SHIFT    |  9  |  0  |  X  |  . |  I  |  N  |  W  |  V  |  G  | ,   |      SHIFT     |
-        // |  CTL  |  WIN  | LGUI  |            SPACE               | ALT |   1  |  MENU   |  CTRL  |
+        // |  CTL  |  WIN  | LGUI  |            SPACE               | RGUI |   1  |  MENU   |  CTRL  |
         // ------------------------------------------------------------------------------------------
       bindings = <
 
@@ -105,7 +105,7 @@
         // | TAB   |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |    \    |
         // | CAPS   |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L  |  ;  |  '  |     ENTER    |
         // | SHFT  |NONE|  Z  |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  | /   | SHFT | UP |  1 |
-        // |  CTL  |  WIN  |  ALT  |           SPACE              | RALT| CTRL | LEFT | DOWN | RIGHT |
+        // |  CTL  |  WIN  |  ALT  |           SPACE              | RGUI| CTRL | LEFT | DOWN | RIGHT |
         // ------------------------------------------------------------------------------------------
       bindings = <
         &kp ESC &kp N1 &kp N2 &kp N3 &kp N4 &kp J &kp L &kp M &kp  F   &kp  P &kp  SLH  &kp LBKT &kp RBKT &kp BSPC &kp DEL
@@ -122,7 +122,7 @@
         // | TAB  |  Q  |  W  |  E  | HUI | HUD |  Y  |  U  | INS |  O  |PSCRN| SLCK| P_B | RGB_TOG  |
         // | CAPS  |  A  |  S  |  D  | BRI | BRD |  H  |  J  |  K  |  L  | HOME| PGUP|      BOOT     |
         // | SHFT |NONE|VOLDN|VOLUP|MUTE|BLINC|BLDEC|  N  |  M  |  ,  | END | PGDN | SHFT|BL_TOG| 1  |
-        // | BT_PRV| BT_NXT|  ALT  |           SPACE              | RALT| CTRL | LEFT |RESET| BT_CLR |
+        // | BT_PRV| BT_NXT|  ALT  |           SPACE              | RGUI| CTRL | LEFT |RESET| BT_CLR |
         // ------------------------------------------------------------------------------------------
       bindings = <
         &kp GRAVE &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp  F8   &kp  F9 &kp  F10  &kp F11 &kp F12   &trans &trans
@@ -140,7 +140,7 @@
         // | TAB  |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |   \     |
         // | CAPS  |  7  |  8  |  Z  |  A  |  E  |  H  |  T  |  D  |  C  |  K  |  -  |     ENTER    |
         // |  SHIFT    |  Z  |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  | /   |      SHIFT     |
-        // |  CTL   |   WIN  |   ALT  |              SPACE                |  ALT  |   1    |  CTRL  |
+        // |  CTL   |   WIN  |   ALT  |              SPACE                |  GUI  |   1    |  CTRL  |
         // ------------------------------------------------------------------------------------------
       bindings = <
 
