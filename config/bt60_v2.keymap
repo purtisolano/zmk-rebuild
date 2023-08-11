@@ -126,10 +126,10 @@
         // ------------------------------------------------------------------------------------------
       bindings = <
         &kp GRAVE &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp  F8   &kp  F9 &kp  F10  &kp F11 &kp F12   &trans &trans
-        &trans &trans &trans &trans &rgb_ug RGB_HUI &rgb_ug RGB_HUD &trans &trans &kp INS  &kp N1 &kp PSCRN &kp SLCK &kp PAUSE_BREAK &rgb_ug RGB_TOG
-        &trans    &trans &trans &trans &rgb_ug RGB_BRI &rgb_ug RGB_BRD &trans &kp  &trans &trans &kp HOME  &kp PG_UP   &bootloader
-        &trans &none &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &bl BL_INC &bl BL_DEC &trans &trans &trans &kp END &kp PG_DN &trans &bl BL_TOG &trans
-        &bt BT_PRV &bt BT_NXT  &trans              &trans                            &trans  &trans &trans   &sys_reset &bt BT_CLR
+        &trans &trans &trans &trans &rgb_ug RGB_HUI &rgb_ug RGB_HUD &trans &kp N9 &kp INS  &kp N1 &kp PSCRN &kp SLCK &kp PAUSE_BREAK &rgb_ug RGB_TOG
+        &trans    &trans &trans &kp N5 &rgb_ug RGB_BRI &rgb_ug RGB_BRD &kp N4 &kp  &kp N2 &kp N4 &kp HOME  &kp PG_UP   &bootloader
+        &trans &none &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &bl BL_INC &bl BL_DEC &kp N2  &kp N1 &kp N0 &kp PG_DN &trans &bl BL_TOG &kp N5
+        &bt BT_PRV &bt BT_NXT  &kp N4              &kp N3                            &kp N7  &kp N8 &trans   &kp N9 &kp N6 BT_CLR
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
     };
