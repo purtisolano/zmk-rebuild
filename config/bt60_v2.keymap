@@ -92,7 +92,7 @@
       bindings = <
         &kp ESC &kp N1 &kp N2 &kp N3 &kp N4 &kp J &kp L &kp M &kp  F   &kp  P &kp  FSLH  &kp LBKT &kp RBKT &kp BSPC
         &kp TAB  &kp N5  &kp N6  &kp Q  &kp DOT  &kp O  &kp R  &kp S  &kp  U    &kp  Y  &kp  B   &kp SEMI &kp EQUAL   &kp TAB
-        &kp CAPS  &kp N7  &kp N8  &kp Z  &kp A  &kp N1  &kp N1  &kp N2  &kp  N3    &kp  N4  &kp N5 &kp N6            &kp RET
+        &kp CAPS  &kp N7  &kp N8  &kp Z  &kp A  &kp N1  &kp H  &kp T  &kp  D    &kp  ND  &kp MINUS &kp N6            &kp RET
         &kp LSHFT  &kp N9  &kp N0  &kp X  &kp COMMA  &kp I  &kp N6   &kp N7  &kp N8 &kp N9 &kp COMMA                &kp RSHFT
         &kp LCTRL &kp LGUI &kp LGUI &kp SPACE                          &kp RSHFT &kp N8 &kp RGUI &mo 2 &mo 2    &kp K_CMENU    &kp RCTRL
       >;
